@@ -6,9 +6,9 @@ export const End: React.FC = () => {
     return(
         <div className={styles.end}>
             <div className={styles.endLink}>
-            <a  href="/">Home</a>
-            <a  href="/">Page 1</a>
-            <a  href="/">Page 2</a>
+            <a className={styles.endLink1}  href="/">Home</a>
+            <a className={styles.endLink1}  href="/">Page 1</a>
+            <a className={styles.endLink1}  href="/">Page 2</a>
             </div>
                         <div  className={styles.endLine}>
                             <hr />
