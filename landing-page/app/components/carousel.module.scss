@@ -2,11 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: center;
+  padding-top:10px;
 }
 
 .logoNav {
-  margin-top: 7px;
   padding-left: 50px;
 }
 
@@ -28,8 +27,7 @@
 
 .header {
   position: fixed;
-  top: 5px;
-  left: 0;
+  top: 0;
   width: 100%;
   height: 50px;
   background-color: #fff;
@@ -93,13 +91,6 @@
       display: flex;
   }
 }
-
-
-
-
-
-
-
 
 .carouselContainer {
   position: relative; 
@@ -227,18 +218,20 @@ width: 100vw;
 }
 
 .logo {
-  width: 20%; /* Adjust the width as needed */
-  height: 20%; /* Adjust the height as needed */
+  width: 20%;
+  height: 20%;
 }
 
 .horizontalLine {
-  width: 100%; /* Adjust the width as needed */
-  background-color: rgb(106,69,255); /* Adjust the color as needed */
-  margin: 20px auto; /* Adjust margin as needed */
+  width: 100%;
+  background-color: rgb(106,69,255); 
+  font-size:20px;
+  margin: 20px auto;
+  color: white !important; 
 }
 
 .textContainer {
-  margin-top: 20px;
+  margin-top: 20px ;
 }
 
 .description {
@@ -246,4 +239,54 @@ width: 100vw;
   margin-right: 10%;
   font-size: 16px; 
   color: white;
+}
+
+
+.card {
+  position: relative;
+  width: 33%; 
+  height: 400px; 
+  overflow: hidden;
+}
+
+.image {
+  width:auto;
+  height: auto;
+}
+
+.textContainerImage {
+  position: absolute;
+  top: 20%;
+  bottom: 10px;
+  left: 60%;
+  color: white;
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.verticalDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100vh; 
+  height: 200vh;
+  background-color: rgb(106,69,255) ;
+  width: 20%;
+  margin-left: 40%;
+}
+
+.gallery {
+  margin-top: 200px;
+  display: flex;
+  position: absolute;
+  top: 40;
+  left: 0;
+  width: 100%;
+  height: 100vh;
 }
