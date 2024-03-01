@@ -20,7 +20,7 @@ export const End: React.FC = () => {
                             <img className={styles.social} src="/assets/Subtract.svg" alt="" />
                             <img className={styles.social} src="/assets/7.svg" alt="" />
                   </div>
-                  <img src="/assets/8.svg" alt="" />
+                  <img className={styles.endLogo} src="/assets/8.svg" alt="" />
         </div>
     )
 }

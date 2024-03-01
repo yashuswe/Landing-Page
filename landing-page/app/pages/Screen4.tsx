@@ -25,6 +25,7 @@ export const Screen4: React.FC = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Minima ad totam consequuntur nostrum! Aspernatur quo pariatur officia? Inventore, magni ad!                    
                     </p>
+                    <div className={styles.buttonText}>Lorem ipsum <span> <button><img src="/assets/10.svg"></img></button></span></div>
                 </div>
 
                 </div>
