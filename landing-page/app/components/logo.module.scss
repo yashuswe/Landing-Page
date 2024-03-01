@@ -1,0 +1,50 @@
+@use "sass:math";
+
+.logo {
+  position: relative;
+  width: 100px; 
+  height: 100px;
+  animation: rotateAndScale 3s infinite ease-in-out;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-style: solid;
+}
+
+.blue {
+    border-width: 50px 50px 0 0;
+    border-color: #0074D9 transparent transparent transparent; 
+  }
+
+.red {
+  border-width: 0 50px 50px 0;
+  border-color: transparent #FF0000 transparent transparent;
+}
+
+.yellow {
+  border-width: 50px 0 0 50px;
+  border-color: transparent transparent transparent #FFFF00;
+}
+
+.green {
+  border-width: 0 0 50px 50px;
+  border-color: transparent transparent #00FF00 transparent;
+}
+
+@keyframes rotateAndScale {
+  0%, 100% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(360deg);
+  }
+  50% {
+    transform: rotate(360deg) scale(1.5);
+  }
+  75% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,19 +1,22 @@
 import Image from "next/image";
-import { Hero } from "./components/Hero";
-import { Header } from "./components/Header";
-import styles from "./components/carousel.module.scss"
-import { VerticalDiv } from "./components/VerticalDiv";
-import Gallery from "./components/Gallery";
-import { Containerc } from "./components/Container";
+import { Hero } from "./pages/Hero";
+import { Containerc } from "./pages/Container";
+import { Screen3 } from "./pages/Screen3";
+import { Screen4 } from "./pages/Screen4";
+import AnimatedLogo from "./components/AnimatedLogo";
+import { Logo } from "./components/Logo";
+import { End } from "./components/End";
 
 export default function Home() {
   return (
 
 <div>
   <Hero/>
-  {/* <VerticalDiv/>
-  <Gallery/> */}
   <Containerc/>
+  <Screen3/>
+  <Screen4/>
+  <Logo/>
+  <End/>
 </div>
   );
 }

@@ -15,9 +15,9 @@ const ImageCard: React.FC<ImageCardProps> = ({ src, text1, text2, text3 }) => {
                 className={styles.image}
             />
             <div className={styles.textContainerImage}>
-                <p>{text1}</p>
-                <p>{text2}</p>
-                <p>{text3}</p>
+                <p className={styles.gallery1}>{text1}</p>
+                <p className={styles.gallery2}>{text2}</p>
+                <p className={styles.gallery3}>{text3}</p>
             </div>
         </div>
     );

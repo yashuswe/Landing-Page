@@ -9,7 +9,7 @@ export interface CarouselProps {
 
   export interface ImageCardProps {
     src: string;
-    text1: string;
-    text2: string;
-    text3: string;
+    text1?: string;
+    text2?: string;
+    text3?: string;
 }
